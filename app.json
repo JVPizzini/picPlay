@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "picPlay",
+    "slug": "picPlay",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
