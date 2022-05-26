@@ -25,7 +25,7 @@ const user = {
   name: 'joao',
   email: 'joao@bookpla.com.br',
 };
-
+ 
 function AuthProvider({ children }: AuthProviderPros) {
   //exemplo só para acessar as outras páginas!!!
   const [isAuthenticated, setisAuthenticated] = useState(false);
