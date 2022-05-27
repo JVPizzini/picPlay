@@ -25,9 +25,7 @@ import { SignInSocialButton } from '../../Components/SignInSocialButton';
 
 export function SignIn() {
   const { handleSignIn } = useAuth();
-
   // console.log(user);
-
   return (
     <Container>
       <Header>
@@ -49,8 +47,16 @@ export function SignIn() {
 
       <Footer>
         <FooterWrapper>
-          <SignInSocialButton title="Entrar com Google" svg={GoogleSvg} onPress={() => handleSignIn(true)} />
-          <SignInSocialButton title="Entrar com Apple" svg={AppleSvg} onPress={() => handleSignIn(true)} />
+          <SignInSocialButton
+            title="Entrar com Google"
+            svg={GoogleSvg}
+            onPress={() => handleSignIn(true)}
+          />
+          <SignInSocialButton
+            title="Entrar com Apple"
+            svg={AppleSvg}
+            onPress={() => handleSignIn(true)}
+          />
         </FooterWrapper>
       </Footer>
     </Container>
