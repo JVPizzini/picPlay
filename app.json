@@ -1,10 +1,26 @@
 {
+  "name": "picPlay",
+  "displayName": "picPlay",
   "expo": {
     "name": "picPlay",
+    "icon": "./assets/icon.png",
     "slug": "picPlay",
+    "sdkVersion": "45.0.0",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "assetBundlePatterns": ["**/*"],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2152cf"
+    },
+    "ios": {
+      "bundleIdentifier": "com.picPlay",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.picPlay",
+      "versionCode": 1
+    }
   }
+
 }
